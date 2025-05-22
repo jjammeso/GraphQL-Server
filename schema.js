@@ -18,6 +18,7 @@ export const typeDefs = `#graphql
         name: String!
         birthdate: String!
         awards: [String!]
+        age: Int!
     }
     type Genre{
         id: ID!
