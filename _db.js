@@ -1,10 +1,10 @@
 
   let movies = [
-    { id: '1', title: 'The Matrix', release_year: 1999, genre_id: '1', director_id: '1', actor_id:["1", "6"] },
-    { id: '2', title: 'Inception', release_year: 2010, genre_id: '2', director_id: '2', actor_id:["2"] },
-    { id: '3', title: 'The Dark Knight', release_year: 2008, genre_id: '2', director_id: '2', actor_id:["3", "7"] },
-    { id: '4', title: 'Forrest Gump', release_year: 1994, genre_id: '3', director_id: '3', actor_id:["4"] },
-    { id: '5', title: 'Pulp Fiction', release_year: 1994, genre_id: '2', director_id: '4', actor_id:["5"] }
+    { id: '1', title: 'The Matrix', release_year: 1999, genre_id: '1', director_id: '1', actor_id:["1", "6"], rating: 7 },
+    { id: '2', title: 'Inception', release_year: 2010, genre_id: '2', director_id: '2', actor_id:["2"],  rating: 7  },
+    { id: '3', title: 'The Dark Knight', release_year: 2008, genre_id: '2', director_id: '2', actor_id:["3", "7"], rating: 7  },
+    { id: '4', title: 'Forrest Gump', release_year: 1994, genre_id: '3', director_id: '3', actor_id:["4"], rating: 7  },
+    { id: '5', title: 'Pulp Fiction', release_year: 1994, genre_id: '2', director_id: '4', actor_id:["5"], rating: 7  }
   ];
 
   let directors = [

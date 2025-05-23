@@ -6,6 +6,7 @@ export const typeDefs = `#graphql
         genre: Genre!
         director: Director!
         actors: [Actor!]!
+        rating:Int!
     }
     type Director {
         id: ID!
