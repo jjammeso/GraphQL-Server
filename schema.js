@@ -2,7 +2,7 @@ export const typeDefs = `#graphql
     type Movie {
         id: ID!
         title: String!
-        release_year: Int!
+        release_date: Int!
         genre: Genre!
         director: Director!
         actors: [Actor!]!
@@ -41,14 +41,14 @@ export const typeDefs = `#graphql
     }
     input AddMovieInput{
         title:String!
-        release_year: [String!]!
+        release_date: [String!]!
         genre_id: ID!
         director_id: ID!
         actor_id: [ID!]!
     }
     input EditMovieInput{
         title:String
-        release_year: [String!]
+        release_date: [String!]
         genre_id: ID
         director_id: ID
         actor_id: [ID]
