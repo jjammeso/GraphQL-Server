@@ -15,13 +15,13 @@
   ];
   
   let actors = [
-    { id: '1', name: 'Keanu Reeves', birthdate: '1964-09-02', awards: ['MTV Movie Award'] },
-    { id: '2', name: 'Leonardo DiCaprio', birthdate: '1974-11-11', awards: ['Oscar', 'Golden Globe'] },
-    { id: '3', name: 'Christian Bale', birthdate: '1974-01-30', awards: ['Oscar', 'Golden Globe'] },
-    { id: '4', name: 'Tom Hanks', birthdate: '1956-07-09', awards: ['Oscar', 'Golden Globe', 'Emmy'] },
-    { id: '5', name: 'John Travolta', birthdate: '1954-02-18', awards: ['Golden Globe'] },
-    { id: '6', name: 'Laurence Fishburne', birthdate: '1961-07-30', awards: ['MTV Movie Award']},
-    { id: '7', name: 'Heath Ledger', birthdate: '1979-04-4', awards: ['MTV Movie Award']}
+    { id: '1', name: 'Keanu Reeves', birthdate: '1964-09-02', awards: ['MTV Movie Award'], age:50 },
+    { id: '2', name: 'Leonardo DiCaprio', birthdate: '1974-11-11', awards: ['Oscar', 'Golden Globe'], age:60 },
+    { id: '3', name: 'Christian Bale', birthdate: '1974-01-30', awards: ['Oscar', 'Golden Globe'], age:45 },
+    { id: '4', name: 'Tom Hanks', birthdate: '1956-07-09', awards: ['Oscar', 'Golden Globe', 'Emmy'], age:35 },
+    { id: '5', name: 'John Travolta', birthdate: '1954-02-18', awards: ['Golden Globe'], age:26 },
+    { id: '6', name: 'Laurence Fishburne', birthdate: '1961-07-30', awards: ['MTV Movie Award'], age:79},
+    { id: '7', name: 'Heath Ledger', birthdate: '1979-04-4', awards: ['MTV Movie Award'], age:45}
   ];
   
   let genres = [
