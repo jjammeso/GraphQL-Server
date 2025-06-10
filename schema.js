@@ -14,6 +14,7 @@ export const typeDefs = `#graphql
         name: String!
         nationality: String!
         movies: [Movie!]
+        birthdate: String!
     }
     type Actor {
         id: ID!
